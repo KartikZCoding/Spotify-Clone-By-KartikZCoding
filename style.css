@@ -59,6 +59,8 @@ body {
 .footer a {
   color: grey;
   font-size: 14px;
+  text-decoration: none;
+  word-spacing: -1px;
 }
 
 .right-head {
@@ -79,4 +81,21 @@ body {
 .btns :first-child {
   background: none;
   color: white;
+}
+
+.arrow-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  /* or any color you want */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow-btn img {
+  width: 15px;
+  height: 15px;
 }
