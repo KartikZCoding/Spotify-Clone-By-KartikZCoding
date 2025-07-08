@@ -11,6 +11,14 @@
   justify-content: center;
 }
 
+.fw {
+  flex-wrap: wrap;
+}
+
+.just-sbeet {
+  justify-content: space-between;
+}
+
 .items-center {
   align-items: center;
 }
@@ -30,6 +38,10 @@
 
 .mtb5 {
   margin: 5px 0;
+}
+
+.mtb10 {
+  margin: 10px 0;
 }
 
 .m5 {
