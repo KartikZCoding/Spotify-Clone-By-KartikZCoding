@@ -28,6 +28,10 @@
   background-color: #121212;
 }
 
+.mtb5 {
+  margin: 5px 0;
+}
+
 .m5 {
   margin: 5px;
 }
@@ -54,4 +58,16 @@
 
 .bor-rad-5 {
   border-radius: 5px;
+}
+
+.g15 {
+  gap: 15px;
+}
+
+.g5 {
+  gap: 5px;
+}
+
+.g10 {
+  gap: 10px;
 }

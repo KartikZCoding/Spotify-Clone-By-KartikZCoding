@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 
@@ -58,4 +58,25 @@ body {
 
 .footer a {
   color: grey;
+  font-size: 14px;
+}
+
+.right-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  font-weight: bold;
+}
+
+.btns :first-child {
+  background: none;
+  color: white;
 }
