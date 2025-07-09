@@ -1,288 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Spotify - Web Player: Music for everyone</title>
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="utility.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="main flex bg-black">
-
-        <!-- left side -->
-        <div class="left">
-            <!-- home box -->
-            <div class="home bg-grey bor-rad-5 m5 p15">
-                <div class="logo">
-                    <img class="invert" src="logo.svg" alt="logo" />
-                </div>
-                <ul>
-                    <li><img class="invert" src="home.svg" alt="home" />Home</li>
-                    <li><img class="invert" src="search.svg" alt="search" />Search</li>
-                </ul>
-            </div>
-
-            <!-- library box -->
-            <div class="library bg-grey bor-rad-5 m5 p15">
-                <div class="library-head flex">
-                    <img class="invert" src="playlist.svg" alt="playlist" />
-                    Your playlist
-                </div>
-
-                <!-- footer box -->
-                <div class="footer">
-                    <div>
-                        <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a>
-                    </div>
-                    <div>
-                        <a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a>
-                    </div>
-                </div>
-            </div>
+      <!-- left side -->
+      <div class="left">
+        <!-- home box -->
+        <div class="home bg-grey bor-rad-5 m5 p15">
+          <div class="logo">
+            <img class="invert" src="logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
         </div>
 
-        <!-- right side -->
-        <div class="right bg-grey bor-rad-5 mtb5">
+        <!-- library box -->
+        <div class="library bg-grey bor-rad-5 m5 p15">
+          <div class="library-head flex">
+            <img class="invert" src="playlist.svg" alt="playlist" />
+            Your playlist
+          </div>
 
-            <!-- right side header -->
-            <div class="right-head">
-                <div class="nav flex g10">
-                    <div class="arrow-btn">
-                        <img src="left.svg" alt="left-arrow" />
-                    </div>
-                    <div class="arrow-btn">
-                        <img src="right.svg" alt="right-arrow" />
-                    </div>
-                </div>
-
-                <div class="btns flex g10">
-                    <button>Sign up</button>
-                    <button>Log in</button>
-                </div>
+          <!-- footer box -->
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a>
             </div>
+            <div>
+              <a href="https://www.spotify.com/jp/privacy/"
+                ><span>Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/jp/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 
-            <!-- <div class="play-btn">
-                <svg fill="#3be477" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 459 459" xml:space="preserve"
-                    stroke="#3be477" transform="matrix(1, 0, 0, 1, 0, 0)">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
-                        stroke-width="6.426"></g>
-                    <g id="SVGRepo_iconCarrier">
-                        <g>
-                            <g>
-                                <path
-                                    d="M229.5,0C102.751,0,0,102.751,0,229.5S102.751,459,229.5,459S459,356.249,459,229.5S356.249,0,229.5,0z M310.292,239.651 l-111.764,76.084c-3.761,2.56-8.63,2.831-12.652,0.704c-4.022-2.128-6.538-6.305-6.538-10.855V153.416 c0-4.55,2.516-8.727,6.538-10.855c4.022-2.127,8.891-1.857,12.652,0.704l111.764,76.084c3.359,2.287,5.37,6.087,5.37,10.151 C315.662,233.564,313.652,237.364,310.292,239.651z">
-                                </path>
-                            </g>
-                        </g>
+      <!-- right side -->
+      <div class="right bg-grey bor-rad-5 mtb5">
+        <!-- right side header -->
+        <div class="right-head">
+          <div class="nav flex g10">
+            <div class="arrow-btn">
+              <img src="left.svg" alt="left-arrow" />
+            </div>
+            <div class="arrow-btn">
+              <img src="right.svg" alt="right-arrow" />
+            </div>
+          </div>
+
+          <div class="btns flex g10">
+            <button>Sign up</button>
+            <button>Log in</button>
+          </div>
+        </div>
+
+        <!-- right side playlists library -->
+        <div class="spotify-playlist">
+          <h2 class="ptb10">Spotify Playlists</h2>
+          <div class="cards-contain flex g10 fw">
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7"
+                alt
+              />
+              <h3>Shahiba</h3>
+              <p>Aditya Rikhari</p>
+              <div class="play-btn">
+                <svg
+                  fill="#3be477"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 459 459"
+                  xml:space="preserve"
+                  stroke="#3be477"
+                  transform="matrix(1, 0, 0, 1, 0, 0)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="6.426"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <g>
+                        <path
+                          d="M229.5,0C102.751,0,0,102.751,0,229.5S102.751,459,229.5,459S459,356.249,459,229.5S356.249,0,229.5,0z M310.292,239.651 l-111.764,76.084c-3.761,2.56-8.63,2.831-12.652,0.704c-4.022-2.128-6.538-6.305-6.538-10.855V153.416 c0-4.55,2.516-8.727,6.538-10.855c4.022-2.127,8.891-1.857,12.652,0.704l111.764,76.084c3.359,2.287,5.37,6.087,5.37,10.151 C315.662,233.564,313.652,237.364,310.292,239.651z"
+                        ></path>
+                      </g>
                     </g>
+                  </g>
                 </svg>
-            </div> -->
-
-            <!-- right side playlists library -->
-            <div class="spotify-playlist">
-                <h2 class="mtb10">Spotify Playlists</h2>
-                <div class="cards-contain flex g10 fw just-sbeet">
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-                    <div class="card">
-                        <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt />
-                        <h3>Aashiqui 2</h3>
-                        <p>Mithoon, Ankit Tiwari, Jeet Gannguli</p>
-                    </div>
-
-                </div>
+              </div>
             </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67616d0000b2735fe9856a449aab589c06b6c8"
+                alt
+              />
+              <h3>Paro</h3>
+              <p>Aditya RikhariUNPLG'd</p>
+              <div class="play-btn">
+                <svg
+                  fill="#3be477"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 459 459"
+                  xml:space="preserve"
+                  stroke="#3be477"
+                  transform="matrix(1, 0, 0, 1, 0, 0)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="6.426"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <g>
+                        <path
+                          d="M229.5,0C102.751,0,0,102.751,0,229.5S102.751,459,229.5,459S459,356.249,459,229.5S356.249,0,229.5,0z M310.292,239.651 l-111.764,76.084c-3.761,2.56-8.63,2.831-12.652,0.704c-4.022-2.128-6.538-6.305-6.538-10.855V153.416 c0-4.55,2.516-8.727,6.538-10.855c4.022-2.127,8.891-1.857,12.652,0.704l111.764,76.084c3.359,2.287,5.37,6.087,5.37,10.151 C315.662,233.564,313.652,237.364,310.292,239.651z"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://i.scdn.co/image/ab67616d00001e02e39388ba8eadf58476135087"
+                alt
+              />
+              <h3>Jiyein Kyun</h3>
+              <p>Pritam, Papons</p>
+              <div class="play-btn">
+                <svg
+                  fill="#3be477"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 459 459"
+                  xml:space="preserve"
+                  stroke="#3be477"
+                  transform="matrix(1, 0, 0, 1, 0, 0)"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke="#CCCCCC"
+                    stroke-width="6.426"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <g>
+                        <path
+                          d="M229.5,0C102.751,0,0,102.751,0,229.5S102.751,459,229.5,459S459,356.249,459,229.5S356.249,0,229.5,0z M310.292,239.651 l-111.764,76.084c-3.761,2.56-8.63,2.831-12.652,0.704c-4.022-2.128-6.538-6.305-6.538-10.855V153.416 c0-4.55,2.516-8.727,6.538-10.855c4.022-2.127,8.891-1.857,12.652,0.704l111.764,76.084c3.359,2.287,5.37,6.087,5.37,10.151 C315.662,233.564,313.652,237.364,310.292,239.651z"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

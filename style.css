@@ -76,9 +76,11 @@ body {
 .right-head {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   background-color: #080808;
   border-radius: 5px 5px 0px 0px;
+  height: 60px;
 }
 
 .btns button {
@@ -90,11 +92,23 @@ body {
   width: 80px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
 }
 
 .btns :first-child {
   background: none;
+  color: #b3b3b3;
+}
+
+.btns :first-child:hover {
   color: white;
+  transform: scale(1.04);
+}
+
+.btns :last-child:hover {
+  transform: scale(1.04);
+  background-color: #f0f0f0;
 }
 
 .arrow-btn {
@@ -117,29 +131,40 @@ body {
 
 .spotify-playlist {
   padding: 0px 20px;
-
-  /* scrollbar */
-  max-height: 90vh;
-  overflow: scroll;
-  overflow-x: hidden;
-  scrollbar-width: thin;
-  scrollbar-color: #444 transparent;
-
   background: linear-gradient(to bottom, #222222 0%, #1a1a1a 10%, #121212 100%);
 }
-
-.spotify-playlist::-webkit-scrollbar-thumb:hover {
-  background-color: #777;
-}
-
 
 .card {
   width: 200px;
   height: 270px;
   padding: 10px;
-  background-color: #1f1f1f;
+  background-color: transparent;
   border-radius: 7px;
   position: relative;
+  transition: all 0.5s ease;
+}
+
+.play-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  bottom: 75px;
+  right: 17px;
+  background-color: black;
+  opacity: 0;
+  box-shadow: 2px 2px 5px rgb(41, 41, 41);
+  transition: all 0.2s ease;
+}
+
+.card:hover .play-btn {
+  opacity: 1;
+  bottom: 87px;
+}
+
+.card:hover {
+  background-color: #1f1f1f;
 }
 
 .card img {
@@ -156,17 +181,4 @@ body {
 .card p {
   color: #9f9f9f;
   font-size: 14px;
-}
-
-.play-btn {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 87px;
-  /* change here */
-  right: 17px;
-  background-color: black;
-  /* opacity: 0; */
-  box-shadow: 0px 2px 2px black;
 }
