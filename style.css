@@ -61,7 +61,7 @@ body {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  padding: 15px 0;
+  padding: 5px 0;
 }
 
 .footer a {
@@ -128,6 +128,10 @@ body {
 }
 
 /* right side playlists Card */
+.cards-contain {
+  overflow: auto;
+  max-height: 75vh;
+}
 
 .spotify-playlist {
   padding: 0px 20px;
@@ -181,4 +185,66 @@ body {
 .card p {
   color: #9f9f9f;
   font-size: 14px;
+}
+
+/* right side playbar */
+.playbar {
+  width: 100%;
+  height: 50px;
+  margin: 4px auto;
+  border: none;
+  background: linear-gradient(to bottom, #1f1f1f, #131313);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.song-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.song-btns img {
+  width: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.song-btns img:hover {
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0));
+  transform: scale(1.1);
+}
+
+/* left side song list */
+.song-info {
+  font-size: 12px;
+  width: 180px;
+}
+
+.song-list ul li {
+  list-style-type: decimal;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.song-list {
+  max-height: 65vh;
+  overflow: auto;
+}
+
+.song-playnow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
 }
