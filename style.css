@@ -197,6 +197,9 @@ body {
   border-radius: 5px;
   display: flex;
   justify-content: center;
+  flex-direction: column-reverse;
+  gap: 5px;
+  padding-top: 5px;
   align-items: center;
 }
 
@@ -236,6 +239,11 @@ body {
   padding: 0 10px;
 }
 
+.song-list ul li:hover {
+  background-color: #1f1f1f;
+  cursor: pointer;
+}
+
 .song-list {
   max-height: 65vh;
   overflow: auto;
@@ -247,4 +255,24 @@ body {
   align-items: center;
   gap: 10px;
   font-size: 10px;
+}
+
+.seekbar {
+  height: 2px;
+  width: 98%;
+  border: 2px solid white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.circle {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #FFE;
+  position: absolute;
+  bottom: -7px;
+  left: -2px;
+  transition: all 0.5s;
+  cursor: pointer;
 }
