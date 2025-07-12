@@ -198,7 +198,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
-  gap: 5px;
+  gap: 7px;
   padding-top: 5px;
   align-items: center;
 }
@@ -211,7 +211,7 @@ body {
 }
 
 .song-btns img {
-  width: 30px;
+  width: 25px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -263,6 +263,7 @@ body {
   border: 2px solid white;
   border-radius: 10px;
   position: relative;
+  cursor: pointer;
 }
 
 .circle {
@@ -275,4 +276,23 @@ body {
   left: -2px;
   transition: all 0.5s;
   cursor: pointer;
+}
+
+.song-manage {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.s-info {
+  font-size: 10px;
+  text-align: start;
+}
+
+.s-time {
+  text-align: end;
 }
